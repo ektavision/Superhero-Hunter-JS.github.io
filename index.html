@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./css/index.css">
+    <title>SuperHeroes</title>
+</head>
+<body>
+
+    <!-- navigation bar -->
+    <nav id="navbar">
+        <ul id="nav-content">
+            <li><a href="#">HOME</a></li>
+            <li><a href="./favourites.html">FAVOURITES</a></li>
+        </ul>
+    </nav>
+<!--  search bar -->
+    <main >
+        <form action="" method="get"  id="form">
+            <input id="search-character" type="search" placeholder="Search Your Superhero">
+            
+        </form>
+    </main>
+<!-- super hero appears in this container -->
+    <div id="superhero-list">
+        <template id="template">
+            <div id="superhero">
+               
+
+                <!--  info -->
+                <div id="info">
+                    <div id="name"></div>
+                    <div id="id">Race</div>
+                    <div id="description">Description</div>
+                    
+                </div>
+                <div id="buttons">
+                    <!-- button for adding to favourite -->
+                    <button id="fav">Add to Favourite</button>
+                    <!-- button for directing to about page -->
+                    <button id="more-info">More Info</button>
+                </div>
+                
+            </div>
+        </template>
+    </div>
+    <!-- script for index js -->
+    <script src="./js/index.js"></script>
+</body>
+</html>
